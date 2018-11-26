@@ -1,0 +1,22 @@
+a {
+    text-decoration: none;
+    color: inherit;
+    color: #ff0000;
+}
+
+a:visited {
+    color: #ff0000;
+}
+
+.level-0 a,
+.level-2 a,
+.level-1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.toc .selected {
+    font-style: normal;
+    background-image: linear-gradient(to right,#fff,#ff7575,#ff0000);
+    font-weight: bold;
+}
